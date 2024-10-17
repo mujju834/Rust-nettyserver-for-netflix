@@ -1,0 +1,11 @@
+[package]
+name = "Rust-netty-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"      # Web framework for Rust
+reqwest = { version = "0.11", features = ["json"] } # HTTP client library
+dotenv = "0.15"      # Environment variable loader
+tokio = { version = "1", features = ["full"] } # Asynchronous runtime
+

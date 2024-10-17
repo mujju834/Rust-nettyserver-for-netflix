@@ -1,0 +1,32 @@
+/target
+
+# Ignore Cargo.lock if it's a library (for binaries, include it)
+# If you're building an app (like yours), you can keep it tracked. Otherwise, ignore.
+# Cargo.lock
+
+# Ignore backup and temporary files
+*.rs.bk
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+
+# Ignore .env file (contains sensitive information)
+.env
+
+# Ignore node_modules (if you use frontend tools or npm in this project)
+node_modules/
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Git metadata files in case of submodules or conflicts
+.git/
+.gitmodules
